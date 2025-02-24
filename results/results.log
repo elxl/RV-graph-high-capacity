@@ -1,0 +1,505 @@
+DATAROOT ./data
+RESULTS_DIRECTORY ./results
+TIMEFILE map/times.csv
+EDGECOST_FILE map/edges.csv
+VEHICLE_LIMIT 500
+MAX_WAITING 300
+MAX_DETOUR 600
+REQUEST_DATA_FILE requests/requests.csv
+VEHICLE_DATA_FILE vehicles/vehicles.csv
+CARSIZE 4
+INITIAL_TIME 00:00:00
+FINAL_TIME 01:00:00
+ALGORITHM ILP_FULL
+CTSP FIX_ONBOARD
+CTSP_OBJECTIVE NOT-AVGDELAY (other)
+Time stamp: 00:00:00 	 System time 15:09:22.654956
+	Service Rate	39.82	%
+	Avg Waiting	25.20
+	Avg Riding	0.00
+	Avg Delay	0.00
+	Mean Passengers	0.00
+	Shared rate	0.00	%
+	Total shared	0
+Time stamp: 00:01:00 	 System time 15:09:44.443300
+	Service Rate	38.50	%
+	Avg Waiting	43.55
+	Avg Riding	0.00
+	Avg Delay	0.00
+	Mean Passengers	0.00
+	Shared rate	0.00	%
+	Total shared	0
+Time stamp: 00:02:00 	 System time 15:10:27.641823
+	Service Rate	46.87	%
+	Avg Waiting	63.23
+	Avg Riding	84.67
+	Avg Delay	0.00
+	Mean Passengers	0.01
+	Shared rate	50.00	%
+	Total shared	3
+Time stamp: 00:03:00 	 System time 15:11:14.629922
+	Service Rate	50.67	%
+	Avg Waiting	79.67
+	Avg Riding	108.91
+	Avg Delay	0.04
+	Mean Passengers	0.03
+	Shared rate	56.52	%
+	Total shared	13
+Time stamp: 00:04:00 	 System time 15:12:53.429305
+	Service Rate	55.63	%
+	Avg Waiting	101.74
+	Avg Riding	123.90
+	Avg Delay	7.62
+	Mean Passengers	0.04
+	Shared rate	60.00	%
+	Total shared	24
+Time stamp: 00:05:00 	 System time 15:13:52.379184
+	Service Rate	58.35	%
+	Avg Waiting	120.30
+	Avg Riding	138.24
+	Avg Delay	14.09
+	Mean Passengers	0.06
+	Shared rate	72.73	%
+	Total shared	48
+Time stamp: 00:06:00 	 System time 15:14:37.526427
+	Service Rate	60.25	%
+	Avg Waiting	136.83
+	Avg Riding	154.70
+	Avg Delay	18.86
+	Mean Passengers	0.07
+	Shared rate	76.74	%
+	Total shared	66
+Time stamp: 00:07:00 	 System time 15:15:10.744614
+	Service Rate	62.13	%
+	Avg Waiting	148.63
+	Avg Riding	185.46
+	Avg Delay	26.42
+	Mean Passengers	0.11
+	Shared rate	82.68	%
+	Total shared	105
+Time stamp: 00:08:00 	 System time 15:15:31.771921
+	Service Rate	64.11	%
+	Avg Waiting	158.88
+	Avg Riding	197.90
+	Avg Delay	35.41
+	Mean Passengers	0.15
+	Shared rate	87.29	%
+	Total shared	158
+Time stamp: 00:09:00 	 System time 15:15:44.308095
+	Service Rate	65.82	%
+	Avg Waiting	165.84
+	Avg Riding	216.72
+	Avg Delay	40.43
+	Mean Passengers	0.20
+	Shared rate	90.44	%
+	Total shared	227
+Time stamp: 00:10:00 	 System time 15:15:52.800366
+	Service Rate	66.91	%
+	Avg Waiting	172.10
+	Avg Riding	234.74
+	Avg Delay	44.61
+	Mean Passengers	0.26
+	Shared rate	92.54	%
+	Total shared	310
+Time stamp: 00:11:00 	 System time 15:15:59.346081
+	Service Rate	66.52	%
+	Avg Waiting	176.06
+	Avg Riding	253.33
+	Avg Delay	58.66
+	Mean Passengers	0.32
+	Shared rate	93.85	%
+	Total shared	397
+Time stamp: 00:12:00 	 System time 15:16:04.116694
+	Service Rate	66.26	%
+	Avg Waiting	179.19
+	Avg Riding	271.92
+	Avg Delay	69.64
+	Mean Passengers	0.39
+	Shared rate	94.24	%
+	Total shared	491
+Time stamp: 00:13:00 	 System time 15:16:08.594404
+	Service Rate	65.41	%
+	Avg Waiting	181.18
+	Avg Riding	297.11
+	Avg Delay	83.58
+	Mean Passengers	0.50
+	Shared rate	95.40	%
+	Total shared	622
+Time stamp: 00:14:00 	 System time 15:16:12.053737
+	Service Rate	65.57	%
+	Avg Waiting	183.02
+	Avg Riding	317.01
+	Avg Delay	93.38
+	Mean Passengers	0.58
+	Shared rate	96.06	%
+	Total shared	732
+Time stamp: 00:15:00 	 System time 15:16:15.546243
+	Service Rate	65.89	%
+	Avg Waiting	184.86
+	Avg Riding	333.72
+	Avg Delay	100.95
+	Mean Passengers	0.66
+	Shared rate	96.61	%
+	Total shared	854
+Time stamp: 00:16:00 	 System time 15:16:18.591091
+	Service Rate	65.17	%
+	Avg Waiting	186.01
+	Avg Riding	357.66
+	Avg Delay	113.48
+	Mean Passengers	0.75
+	Shared rate	97.02	%
+	Total shared	978
+Time stamp: 00:17:00 	 System time 15:16:21.348498
+	Service Rate	64.75	%
+	Avg Waiting	186.80
+	Avg Riding	375.56
+	Avg Delay	123.48
+	Mean Passengers	0.82
+	Shared rate	97.22	%
+	Total shared	1084
+Time stamp: 00:18:00 	 System time 15:16:24.723377
+	Service Rate	64.16	%
+	Avg Waiting	187.31
+	Avg Riding	395.15
+	Avg Delay	133.21
+	Mean Passengers	0.92
+	Shared rate	97.53	%
+	Total shared	1222
+Time stamp: 00:19:00 	 System time 15:16:27.944667
+	Service Rate	63.74	%
+	Avg Waiting	187.68
+	Avg Riding	412.01
+	Avg Delay	141.46
+	Mean Passengers	0.99
+	Shared rate	97.74	%
+	Total shared	1340
+Time stamp: 00:20:00 	 System time 15:16:31.381914
+	Service Rate	64.00	%
+	Avg Waiting	188.76
+	Avg Riding	427.84
+	Avg Delay	148.37
+	Mean Passengers	1.07
+	Shared rate	97.93	%
+	Total shared	1467
+Time stamp: 00:21:00 	 System time 15:16:34.578028
+	Service Rate	63.94	%
+	Avg Waiting	189.62
+	Avg Riding	442.30
+	Avg Delay	153.05
+	Mean Passengers	1.13
+	Shared rate	98.07	%
+	Total shared	1576
+Time stamp: 00:22:00 	 System time 15:16:38.477144
+	Service Rate	64.02	%
+	Avg Waiting	190.60
+	Avg Riding	451.20
+	Avg Delay	157.04
+	Mean Passengers	1.18
+	Shared rate	98.20	%
+	Total shared	1695
+Time stamp: 00:23:00 	 System time 15:16:42.528799
+	Service Rate	64.05	%
+	Avg Waiting	191.32
+	Avg Riding	462.75
+	Avg Delay	160.40
+	Mean Passengers	1.24
+	Shared rate	98.32	%
+	Total shared	1817
+Time stamp: 00:24:00 	 System time 15:16:45.632319
+	Service Rate	64.14	%
+	Avg Waiting	191.82
+	Avg Riding	468.91
+	Avg Delay	162.07
+	Mean Passengers	1.28
+	Shared rate	98.43	%
+	Total shared	1942
+Time stamp: 00:25:00 	 System time 15:16:49.440881
+	Service Rate	63.98	%
+	Avg Waiting	192.07
+	Avg Riding	474.32
+	Avg Delay	163.47
+	Mean Passengers	1.32
+	Shared rate	98.47	%
+	Total shared	2058
+Time stamp: 00:26:00 	 System time 15:16:52.512677
+	Service Rate	63.87	%
+	Avg Waiting	192.75
+	Avg Riding	483.27
+	Avg Delay	165.89
+	Mean Passengers	1.38
+	Shared rate	98.47	%
+	Total shared	2193
+Time stamp: 00:27:00 	 System time 15:16:55.704331
+	Service Rate	64.32	%
+	Avg Waiting	193.14
+	Avg Riding	491.73
+	Avg Delay	168.32
+	Mean Passengers	1.42
+	Shared rate	98.55	%
+	Total shared	2309
+Time stamp: 00:28:00 	 System time 15:16:59.263551
+	Service Rate	63.77	%
+	Avg Waiting	193.47
+	Avg Riding	498.81
+	Avg Delay	170.21
+	Mean Passengers	1.46
+	Shared rate	98.58	%
+	Total shared	2423
+Time stamp: 00:29:00 	 System time 15:17:02.738500
+	Service Rate	63.86	%
+	Avg Waiting	193.68
+	Avg Riding	503.52
+	Avg Delay	172.02
+	Mean Passengers	1.49
+	Shared rate	98.64	%
+	Total shared	2535
+Time stamp: 00:30:00 	 System time 15:17:06.090014
+	Service Rate	64.02	%
+	Avg Waiting	193.85
+	Avg Riding	505.44
+	Avg Delay	172.46
+	Mean Passengers	1.51
+	Shared rate	98.66	%
+	Total shared	2659
+Time stamp: 00:31:00 	 System time 15:17:08.997322
+	Service Rate	63.79	%
+	Avg Waiting	194.25
+	Avg Riding	509.05
+	Avg Delay	172.82
+	Mean Passengers	1.54
+	Shared rate	98.72	%
+	Total shared	2772
+Time stamp: 00:32:00 	 System time 15:17:12.343585
+	Service Rate	64.08	%
+	Avg Waiting	194.52
+	Avg Riding	511.44
+	Avg Delay	173.26
+	Mean Passengers	1.55
+	Shared rate	98.76	%
+	Total shared	2873
+Time stamp: 00:33:00 	 System time 15:17:15.900489
+	Service Rate	63.80	%
+	Avg Waiting	194.53
+	Avg Riding	516.15
+	Avg Delay	174.42
+	Mean Passengers	1.57
+	Shared rate	98.74	%
+	Total shared	2977
+Time stamp: 00:34:00 	 System time 15:17:19.554160
+	Service Rate	63.74	%
+	Avg Waiting	194.66
+	Avg Riding	519.23
+	Avg Delay	174.47
+	Mean Passengers	1.59
+	Shared rate	98.78	%
+	Total shared	3084
+Time stamp: 00:35:00 	 System time 15:17:22.265113
+	Service Rate	64.01	%
+	Avg Waiting	194.79
+	Avg Riding	522.91
+	Avg Delay	175.77
+	Mean Passengers	1.61
+	Shared rate	98.79	%
+	Total shared	3188
+Time stamp: 00:36:00 	 System time 15:17:24.725681
+	Service Rate	64.14	%
+	Avg Waiting	194.96
+	Avg Riding	526.03
+	Avg Delay	176.04
+	Mean Passengers	1.63
+	Shared rate	98.83	%
+	Total shared	3306
+Time stamp: 00:37:00 	 System time 15:17:27.452047
+	Service Rate	64.11	%
+	Avg Waiting	194.90
+	Avg Riding	528.34
+	Avg Delay	176.65
+	Mean Passengers	1.63
+	Shared rate	98.83	%
+	Total shared	3388
+Time stamp: 00:38:00 	 System time 15:17:30.032828
+	Service Rate	63.85	%
+	Avg Waiting	194.77
+	Avg Riding	532.91
+	Avg Delay	178.29
+	Mean Passengers	1.65
+	Shared rate	98.87	%
+	Total shared	3499
+Time stamp: 00:39:00 	 System time 15:17:33.142304
+	Service Rate	63.77	%
+	Avg Waiting	194.62
+	Avg Riding	535.82
+	Avg Delay	179.10
+	Mean Passengers	1.67
+	Shared rate	98.90	%
+	Total shared	3606
+Time stamp: 00:40:00 	 System time 15:17:36.328499
+	Service Rate	63.82	%
+	Avg Waiting	194.81
+	Avg Riding	539.08
+	Avg Delay	179.69
+	Mean Passengers	1.69
+	Shared rate	98.93	%
+	Total shared	3712
+Time stamp: 00:41:00 	 System time 15:17:39.227189
+	Service Rate	63.78	%
+	Avg Waiting	194.88
+	Avg Riding	540.90
+	Avg Delay	180.01
+	Mean Passengers	1.70
+	Shared rate	98.94	%
+	Total shared	3822
+Time stamp: 00:42:00 	 System time 15:17:42.220953
+	Service Rate	63.74	%
+	Avg Waiting	195.19
+	Avg Riding	542.38
+	Avg Delay	180.24
+	Mean Passengers	1.71
+	Shared rate	98.97	%
+	Total shared	3942
+Time stamp: 00:43:00 	 System time 15:17:45.270629
+	Service Rate	63.71	%
+	Avg Waiting	195.51
+	Avg Riding	544.28
+	Avg Delay	180.29
+	Mean Passengers	1.72
+	Shared rate	98.97	%
+	Total shared	4033
+Time stamp: 00:44:00 	 System time 15:17:48.068755
+	Service Rate	63.70	%
+	Avg Waiting	195.43
+	Avg Riding	546.57
+	Avg Delay	180.96
+	Mean Passengers	1.73
+	Shared rate	98.99	%
+	Total shared	4131
+Time stamp: 00:45:00 	 System time 15:17:50.099477
+	Service Rate	63.52	%
+	Avg Waiting	195.60
+	Avg Riding	547.68
+	Avg Delay	180.96
+	Mean Passengers	1.73
+	Shared rate	98.99	%
+	Total shared	4226
+Time stamp: 00:46:00 	 System time 15:17:52.733326
+	Service Rate	63.51	%
+	Avg Waiting	195.83
+	Avg Riding	550.03
+	Avg Delay	181.63
+	Mean Passengers	1.74
+	Shared rate	98.97	%
+	Total shared	4331
+Time stamp: 00:47:00 	 System time 15:17:55.204401
+	Service Rate	63.56	%
+	Avg Waiting	195.84
+	Avg Riding	551.42
+	Avg Delay	182.41
+	Mean Passengers	1.74
+	Shared rate	98.99	%
+	Total shared	4410
+Time stamp: 00:48:00 	 System time 15:17:57.688074
+	Service Rate	63.62	%
+	Avg Waiting	195.93
+	Avg Riding	553.11
+	Avg Delay	182.45
+	Mean Passengers	1.75
+	Shared rate	99.01	%
+	Total shared	4516
+Time stamp: 00:49:00 	 System time 15:18:00.777151
+	Service Rate	63.48	%
+	Avg Waiting	196.10
+	Avg Riding	554.38
+	Avg Delay	182.95
+	Mean Passengers	1.75
+	Shared rate	99.01	%
+	Total shared	4602
+Time stamp: 00:50:00 	 System time 15:18:03.550940
+	Service Rate	63.34	%
+	Avg Waiting	196.09
+	Avg Riding	555.77
+	Avg Delay	183.31
+	Mean Passengers	1.75
+	Shared rate	99.03	%
+	Total shared	4690
+Time stamp: 00:51:00 	 System time 15:18:06.158638
+	Service Rate	63.42	%
+	Avg Waiting	196.18
+	Avg Riding	556.98
+	Avg Delay	183.83
+	Mean Passengers	1.75
+	Shared rate	99.02	%
+	Total shared	4759
+Time stamp: 00:52:00 	 System time 15:18:08.168045
+	Service Rate	63.44	%
+	Avg Waiting	196.22
+	Avg Riding	557.28
+	Avg Delay	184.43
+	Mean Passengers	1.75
+	Shared rate	99.02	%
+	Total shared	4864
+Time stamp: 00:53:00 	 System time 15:18:10.420403
+	Service Rate	63.36	%
+	Avg Waiting	196.34
+	Avg Riding	558.39
+	Avg Delay	184.63
+	Mean Passengers	1.76
+	Shared rate	99.04	%
+	Total shared	4952
+Time stamp: 00:54:00 	 System time 15:18:13.814864
+	Service Rate	63.27	%
+	Avg Waiting	196.35
+	Avg Riding	558.24
+	Avg Delay	184.37
+	Mean Passengers	1.76
+	Shared rate	99.06	%
+	Total shared	5061
+Time stamp: 00:55:00 	 System time 15:18:15.971670
+	Service Rate	63.46	%
+	Avg Waiting	196.32
+	Avg Riding	558.92
+	Avg Delay	184.55
+	Mean Passengers	1.76
+	Shared rate	99.06	%
+	Total shared	5156
+Time stamp: 00:56:00 	 System time 15:18:18.287432
+	Service Rate	63.57	%
+	Avg Waiting	196.43
+	Avg Riding	560.43
+	Avg Delay	185.08
+	Mean Passengers	1.77
+	Shared rate	99.08	%
+	Total shared	5249
+Time stamp: 00:57:00 	 System time 15:18:20.894680
+	Service Rate	63.60	%
+	Avg Waiting	196.61
+	Avg Riding	561.44
+	Avg Delay	185.27
+	Mean Passengers	1.77
+	Shared rate	99.09	%
+	Total shared	5329
+Time stamp: 00:58:00 	 System time 15:18:23.365323
+	Service Rate	63.68	%
+	Avg Waiting	196.51
+	Avg Riding	561.90
+	Avg Delay	185.30
+	Mean Passengers	1.76
+	Shared rate	99.08	%
+	Total shared	5409
+Time stamp: 00:59:00 	 System time 15:18:25.448573
+	Service Rate	63.64	%
+	Avg Waiting	196.47
+	Avg Riding	563.16
+	Avg Delay	185.66
+	Mean Passengers	1.77
+	Shared rate	99.08	%
+	Total shared	5499
+FINAL SUMMARY
+	Service Rate	65.63	%
+	Served	6613
+	Error Count	0
+	Avg Waiting	196.47
+	Avg Delay	185.66
+	Mean Passengers	1.96
+	Total Idle	567102
+	Total En Route	45973
+	Total Inuse	1156925
