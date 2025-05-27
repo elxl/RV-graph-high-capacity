@@ -43,13 +43,3 @@ The example result log file is saved as `results/results.log`. An example file i
 *`src/utils/parser.py`: include available customizable arguments when running the program. 
 
 *`src/utils/helper.py`: file that includes helper functions. 
-
-## Notes for @Natasha
-- You WILL NOT need to run simulation for your project. I include the simulation files in this repository just to help you understand the whole structure of this algorithm.
-- `src/algo/rvgenerator` should be the file that you will mainly focus on and it is for building the RV graph in the paper.You will need to adapt this part to use the data you get from Alex. That dataset is a bit different from the data files I put as example under the `data/` folder but it contains all information to build the RV graph.
-- The `threads` argument is for multi-thread processing to accelerate computation. If you do not know how to set it, just use 1 and it makes no difference regarding to the algorithm itself.
-- To quickly understand the structure of the code, I would recommend that you start from the following line in the `main.py` file:
-```bash
-ilp_assignement_full(active_vehicles,active_requests,current_time,network,args.THREADS)
-```
-and step into this function and the nested functions to get an idea.
